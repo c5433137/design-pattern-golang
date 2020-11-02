@@ -1,6 +1,7 @@
 package factory
 
 import "fmt"
+
 //CommonInterface CommonInterface
 type CommonInterface interface {
 	Producer(name string) string
