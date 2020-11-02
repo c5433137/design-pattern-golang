@@ -19,10 +19,12 @@ var msgLazy *Message
 
 //InstanceLazy 懒汉式
 func InstanceLazy() *Message {
+
 	once.Do(func() {
 		msgLazy = &Message{
 			a: 1,
 		}
 	})
 	return msgLazy
+
 }
