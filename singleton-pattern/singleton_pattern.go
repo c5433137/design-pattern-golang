@@ -1,7 +1,7 @@
 package singletonpattern
 
 import "sync"
-
+//<span id="单例模式"></span>
 //Message Message
 type Message struct {
 	a int

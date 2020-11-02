@@ -8,5 +8,3 @@ func (m *Message) clone() Prototype {
 	return &msg
 }
 */
-
-
