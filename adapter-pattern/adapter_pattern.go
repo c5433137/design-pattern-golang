@@ -9,8 +9,9 @@ package adapterpattern
 type Records struct {
 	Items []string
 }
- 
+
 //Consumer Consumer
 type Consumer interface {
 	Poll() Records
 }
+ 
