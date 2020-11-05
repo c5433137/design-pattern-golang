@@ -14,3 +14,4 @@ type Records struct {
 type Consumer interface {
 	Poll() Records
 }
+ 
