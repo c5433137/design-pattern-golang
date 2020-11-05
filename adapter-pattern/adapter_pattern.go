@@ -6,7 +6,7 @@ package adapterpattern
 */
 
 //Records Records
-type Records struct {
+type Records struct { 
 	Items []string
 }
 
