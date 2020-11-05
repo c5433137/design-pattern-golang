@@ -6,10 +6,10 @@ package adapterpattern
 */
 
 //Records Records
-type Records struct { 
+type Records struct {
 	Items []string
 }
-
+ 
 //Consumer Consumer
 type Consumer interface {
 	Poll() Records
